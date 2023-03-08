@@ -38,4 +38,4 @@ dataset = pd.DataFrame(dataset, columns=columns)
 
 print(dataset)
 
-df.to_csv(r'C:\Users\nimak\OneDrive\Desktop\orders.csv')
+dataset.to_csv(r'C:\Users\nimak\OneDrive\Desktop\orders.csv')
